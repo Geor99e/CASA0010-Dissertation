@@ -1,0 +1,25 @@
+name: transport-houseprice-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - geopandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - statsmodels
+  - scikit-learn
+  - pysal
+  - geoplot
+  - contextily
+  - networkx
+  - osmnx
+  - jupyterlab
+  - ipython
+  - notebook
+  - pip
+  - pip:
+      - mapclassify
